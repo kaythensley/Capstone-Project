@@ -1,0 +1,12 @@
+# Capstone Project Proposal
+
+## Problem
+Like many states across the country, North Carolina has a historical marker program to commemorate events, locations and people of significance throughout the state. These markers are usually in sign format and designed with the motorist in mind. However, since the marker program began in 1935 a lot has changed about both the state and how we think about history. 
+
+## Client
+
+## Data
+The data I am using for this project comes from the city/county of Durham, North Carolina. They have published a dataset of North Carolina Historial Markers on [data.world](https://data.world/durhamnc/nc-historic-road-markers) that is available to the public.
+## Approach
+
+## Deliverables
