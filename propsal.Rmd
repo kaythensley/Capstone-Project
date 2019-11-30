@@ -1,7 +1,7 @@
 # Capstone Project Proposal
 
 ## Problem
-Like many states across the country, North Carolina has a historical marker program to commemorate events, locations and people of significance throughout the state. These markers are usually in sign format and designed with the motorist in mind. However, since the marker program began in 1935 a lot has changed about both the state and how we think about history. Are all North Carolinians represented in the markers? Is representation proportional between different areas of the state (Coastal/Piedmont/Mountains, Urban/Rural)? Do the markers tell a variety of historical stories? Is there a way to determine where the next marker should go?
+Like many states across the country, North Carolina has a historical marker program to commemorate events, locations and people of significance throughout the state. These markers are usually in sign format and designed with the motorist in mind. However, since the marker program began in 1935 there have been significant changes to both the state and how we think about history. Are all North Carolinians represented in the markers? Is representation proportional between different areas of the state (Coastal/Piedmont/Mountains, Urban/Rural)? Do the markers tell a variety of historical stories about different periods in the state's long history?
 
 ## Client
 The primary client for this project is the North Carolina Department of Natural and Cultural Resources (NC DNCR), the agency in charge of the historical marker program. The results of the project should help NC DNCR make informed decisions about both current and future markers, as well as the stories they wish to tell with this program.
@@ -11,6 +11,12 @@ Secondarily, I believe this project will have some utility for public history st
 ## Data
 The data I am using for this project comes from the city/county of Durham, North Carolina. They have published a dataset of North Carolina Historial Markers on [data.world](https://data.world/durhamnc/nc-historic-road-markers) that is available to the public.
 
+This data will be supplemented by population/highway network/topographical information on the state of North Carolina. 
+
 ## Approach
+The approach for this project is still being formulated, but will involve using R to look for trends in marker placement, type of marker, and location. The intention is to us GIS in some fashion to build out various maps d as well as machine learning/AI to help determine marker content.
+
+While I have some theories about what I might find, my goal is to approach the project as someone less familar with my home state and let the data speak for itself and drive the story.
 
 ## Deliverables
+The deliverables for this project will include code, a report on results with analysis and recommendations, data visualizations and maps and presentation-ready slide deck.
