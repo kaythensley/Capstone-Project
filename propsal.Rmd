@@ -1,12 +1,16 @@
 # Capstone Project Proposal
 
 ## Problem
-Like many states across the country, North Carolina has a historical marker program to commemorate events, locations and people of significance throughout the state. These markers are usually in sign format and designed with the motorist in mind. However, since the marker program began in 1935 a lot has changed about both the state and how we think about history. 
+Like many states across the country, North Carolina has a historical marker program to commemorate events, locations and people of significance throughout the state. These markers are usually in sign format and designed with the motorist in mind. However, since the marker program began in 1935 a lot has changed about both the state and how we think about history. Are all North Carolinians represented in the markers? Is representation proportional between different areas of the state (Coastal/Piedmont/Mountains, Urban/Rural)? Do the markers tell a variety of historical stories? Is there a way to determine where the next marker should go?
 
 ## Client
+The primary client for this project is the North Carolina Department of Natural and Cultural Resources (NC DNCR), the agency in charge of the historical marker program. The results of the project should help NC DNCR make informed decisions about both current and future markers, as well as the stories they wish to tell with this program.
+
+Secondarily, I believe this project will have some utility for public history students interested in historical memory as it relates to what the state has chosen to commemorate over the years.
 
 ## Data
 The data I am using for this project comes from the city/county of Durham, North Carolina. They have published a dataset of North Carolina Historial Markers on [data.world](https://data.world/durhamnc/nc-historic-road-markers) that is available to the public.
+
 ## Approach
 
 ## Deliverables
