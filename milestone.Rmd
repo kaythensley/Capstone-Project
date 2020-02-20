@@ -1,17 +1,25 @@
 # Capstone Milestone Report
 
-This is a slightly longer (3-5 page) draft that should have the following:
+## Introduction
 
-An introduction to the problem (based on your earlier Capstone submissions).
+As discussed in my initial Capstone Proposal, I will be looking at North Carolina's historical markers and drawing conclusions based on the data set provided by the City and County of Durham. The historical marker program began when there was a different conception about what (and who) made history. Do the markers show a focus on Great Men and their endeavors? Are markers concentrated in areas of the state with greater population (and therefore, greater resources)? The first markers were placed in 1935, more than two decades before the highway system began. How have changing travel patterns impacted the placement of markers? 
 
-A deeper dive into the data set:
+The results of this project could serve to help the North Carolina Department of Natural and Cultural Resources (NC DNCR) make determinations about new markers for the program as well as have a better picture of the North Carolina story they are telling with the markers overall.
 
-What important fields and information does the data set have?
+Public Historians and history students may find the information a useful starting point for discussions of history and memory. What a group chooses to commemorate can give valuable insight into what was considered valuable and 'worthy' of preservation at the time of commemoration. 
 
-What are its limitations i.e. what are some questions that you cannot answer with this data set?
+## Examining the Data Set
 
-What kind of cleaning and wrangling did you need to do?
+The historical markers data set is fairly complete and contains a great deal of useful information for my purposes. The latitude and longitude for each marker is given, along with the year erected, the original requester and additional information about the event or person being commemorated. A rough location sketch is also included, along with the actual text on the marker and notes from the NC DNCR. 
 
-Any preliminary exploration you’ve performed and your initial findings.
+It will require several intermediary steps to get from the data provided to some of the questions I wish to answer. The lat and lon information will need to be converted to zipcodes to access census data on population and income levels. Some language processing will be needed to extract the subject of each marker. At the moment, I believe that all the questions I have can be answered either with the data as it is or through transformation to another format.
 
-Based on these findings, what approach are you going to take? How has your approach changed from what you initially proposed, if applicable?
+The data set was clearly extracted directly from the system used by the NC DNCR or other agency. Many of the fields are to help identify the markers within that system and make no sense to someone just looking at the data. A number of rows needed to be deleted or renamed to make for easier processing in R. Fortunately, most of the information about the individual markers is complete. 
+
+Most of my focus to date has been on cleaning the data and paring it down to essentials. Additionally, converting the latitude and longitute to zip codes is proving a bit trickier than anticipated, and has occupied a lot of time on the project so far. 
+
+## Approach Going Forward
+
+By and large, my approach has not changed much since the initial proposal. Once I have the zip codes sorted out I can move forward with connecting the Census API and investigating GIS mapping. Hopefully, there will also be time to dive into some machine learning to make determining marker categories simpler. 
+
+I am trying to not bring any of my own biases and assumptions into this analysis. It will be interesting to see what conclusions the data supports. 
